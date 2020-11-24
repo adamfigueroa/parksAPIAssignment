@@ -18,7 +18,6 @@ function getReturnUrl(parkVal, limit = 10) {
     return response.json();
   })
   .then((responseJson) => displayResults(responseJson))
-  // .then((json)=>{
   }
 
 // Capture value of both the state code and the max # of results
@@ -38,7 +37,6 @@ function handleParkSearch() {
    $('#resultsUl').empty();
    let holder = []
    for (let i = 0; i < json.data.length; i++) {
-  //  $('resultsUl').append(
     holder.push(
      `<li class="parkness">
      <h3><a href="${json.data[i].url}" target="_blank">${json.data[i].fullName}</a></h3>
