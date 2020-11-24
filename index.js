@@ -1,6 +1,6 @@
 
 function getParks() {
-  const api_key = 
+  const api_key = 'Epw3JeowxYcGVTUHQPNBPxyGA72Vg96mkwharQxv'
   const baseUrl =
 
   }

@@ -1,3 +1,17 @@
-.hidden{
-    display: none;
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+.mainPage {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+header {
+    background: url(./images/park.jpeg);
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Sacramento', cursive;
 }
