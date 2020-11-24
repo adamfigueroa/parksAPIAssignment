@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parks API</title>
     <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 </head>
 <body>
     <header class="title">
         <h1>State Park Finder</h1>
     </header>
     <div class="mainPage">
-        <form id="mainForm">
+        <form id="parks">
             <label for="state-Entry">State Code
                 <input type="text" name="stateEntry" id="stateEntry" placeholder="CO, TX, ETC." required>
             </label>
             <label for="max-Results">Max # of Results
                 <input type="number" name="maxResults" id="maxResults" placeholder="10">
             </label>
-            <input type="submit" value="Search">
+            <input type="submit" id="submitBtn" value="Search">
         </form>
     </div>
     <section id="resultBox">
